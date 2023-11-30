@@ -4,10 +4,12 @@ routes
 ระบุเส้นทาง api อย่าลืม init controller อันใหม่
 
 controllers
-function การทำงานของ api ทำนองว่ารับ parameter อะไรบ้าง response อะไร
+การทำงานของ api ทำนองว่ารับ parameter อะไรบ้าง response อะไร เอา function จาก service มาใช้งาน
 
 service
-การเอาข้อมูลที่ได้มาทำงาน
+การเอาข้อมูลที่เรียกมาจาก database มาทำงานเป็น function
 
 repository
 เรียกข้อมูลจาก database
+
+docker-compose up --build
